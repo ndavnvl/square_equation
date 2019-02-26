@@ -7,7 +7,7 @@ int main() {
 	long double C = 0;
 	printf("This programm solves square equation.\n");
 	for (int cont = 1; cont;) {
-		printf("Please, input coefficients in the following format: \"A B C\"\nfrom A * x ^ 2 + B * x + C = 0.\n");
+		printf("Please, input the coefficients in the following format: \"A B C\"\nfrom A * x ^ 2 + B * x + C = 0.\n");
 		scanf_s("%Lf %Lf %Lf", &A, &B, &C);
 		if (!A) {
 			if (!B) {
